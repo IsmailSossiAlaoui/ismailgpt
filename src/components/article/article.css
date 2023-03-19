@@ -1,0 +1,67 @@
+
+
+.gpt3__article__container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  color: aliceblue;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.gpt3__article__container:hover {
+  transform: translateY(-10px);
+}
+
+.article__img__container {
+  position: relative;
+  width: 100%;
+}
+
+.article__img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.article__content__container {
+  padding: 20px;
+  background-color: #042C54;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 2;
+}
+
+.title_time_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: auto;
+}
+
+.title_time_container h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.title_time_container p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.article__content__container > p {
+  color: #1799d6;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.article__content__container > p:hover {
+  text-decoration: underline;
+}

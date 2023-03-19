@@ -1,0 +1,180 @@
+
+.gpt3__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.gpt3__header-content {
+  padding-top: 7rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+}
+
+.gpt3__header h1 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gpt3__header p {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 30px 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  color: #81AFDD;
+}
+
+.gpt3__header input[type="email"] {
+  width: 456px;
+  height: 73px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+}
+
+.gpt3__header button {
+  width: 174px;
+  height: 73px;
+  color: #fff;
+  background: #FF4820;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.gpt3__header button:hover {
+  background-color: #2c5282;
+}
+
+.gpt3__header-content__people {
+  display: flex;
+  align-items: center;
+}
+
+.gpt3__header-content__people p {
+  font-size: 12px;
+}
+
+.gpt3__header-content__people img {
+  margin-right: 20px;
+}
+
+.gpt3__header-image {
+  flex-basis: 50%;
+  display: flex;
+}
+
+.gpt3__header-image img {
+  max-width: 100%;
+}
+
+.gpt3__header-content__input {
+  display: flex;
+}
+
+/* Responsive styles */
+/* Header styles for screens with max width of 1024px */
+@media (max-width: 1024px) {
+  .gpt3__header {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    
+  }
+
+  .gpt3__header-content {
+    width: 80%;
+    text-align: center;
+    padding-top: 5rem;
+    align-items: center;
+  }
+
+  .gpt3__header p {
+    margin-right: 0;
+    padding: 10px;
+  }
+
+  .gpt3__header-image {
+    display: none;
+  }
+}
+
+/* Header styles for screens with max width of 768px */
+@media (max-width: 768px) {
+  .gpt3__header-content {
+    width: 90%;
+  }
+
+  .gpt3__header h1 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .gpt3__header p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .gpt3__header input[type="email"] {
+    width: 100%;
+    max-width: 456px;
+  }
+
+  .gpt3__header button {
+    width: 100%;
+    max-width: 174px;
+  }
+}
+
+/* Header styles for screens with max width of 576px */
+@media (max-width: 576px) {
+  .gpt3__header-content {
+    width: 100%;
+  }
+
+  .gpt3__header h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .gpt3__header p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .gpt3__header input[type="email"] {
+    height: 56px;
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  .gpt3__header button {
+    height: 56px;
+    font-size: 16px;
+    max-width: 120px;
+  }
+
+  .gpt3__header-content__input {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .gpt3__header-content__people {
+    display: none;
+  }
+}

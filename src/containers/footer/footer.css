@@ -1,0 +1,133 @@
+.gpt3__footer__container {
+  background-color: #031b34;
+  color: #fff;
+  padding: 60px 20px;
+  font-family: "Gilroy-Medium";
+}
+
+.footer__heading__container {
+  text-align: center;
+  margin-bottom: 180px;
+}
+
+.footer__heading__container h2 {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  /* or 121% */
+    font-family: var(--font-family);
+  text-align: center;
+  letter-spacing: -0.04em;
+  margin-bottom: 64px;
+}
+
+.footer__heading__container button {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 1px solid #ffffff;
+  line-height: 21px;
+}
+
+.footer__heading__container button:hover {
+  background-color: #117dbb;
+}
+
+.footer__nav__container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.footer__logo__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 168px;
+}
+
+.footer__logo__container img {
+  width: 118px;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+.footer__logo__container p {
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.footer__menu__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+
+
+.footer__menu__links__container {
+    text-align: center;
+}
+
+.links__title__container h4 {
+    font-size: 14px;
+    line-height: 16px;
+  margin-bottom: 36px;
+  font-family: "Gilroy-Bold";
+}
+.links__content__container{
+display: flex;
+flex-direction: column;
+}
+
+.links__content__container p {
+  cursor: pointer;
+  margin-bottom:    24px;
+  transition: color 0.3s;
+  font-size: 12px;
+line-height: 14px;
+}
+
+.links__content__container p:hover {
+  color: #1799d6;
+}
+
+.footer__rights {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .footer__nav__container {
+    flex-wrap: wrap;
+  }
+
+  .footer__logo__container {
+    flex: 1 1 100%;
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__menu__container {
+    flex-wrap: wrap;
+  }
+
+  .footer__menu__links__container {
+    flex: 1 1 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer__menu__links__container {
+    flex: 1 1 100%;
+  }
+}
